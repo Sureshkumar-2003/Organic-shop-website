@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Organic website</title>
+    <!-- CSS LINk -->
+    <link rel="stylesheet" type="text/css" href="./style.css" />
+    <!-- icon cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- boostrap css link -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+
+    <!-- aos css link -->
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+  </head>
+  <body>
+    <main>
+
+      <!-- header -->
+
+      <header>
+        <!-- ===nav bar== -->
+
+        <nav class="navbar nav-main navbar-expand-lg nav-main ">
+          <div class="container-fluid">
+            <div class="d-flex gap-1">
+              <img
+                src="image/organic-food-label-illustration.png"
+                width="50px"
+                height="50px"
+              />
+              <a class="navbar-brand" href="#">SK Shop</a>
+            </div>
+
+
+            <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon  "></span>
+            </button>
+
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                <li class="nav-item ">
+                  <a class="nav-link" href="#home">HOME</a>
+                </li>
+                 
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="#feature">FEATURES</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="#about">ABOUT</a>
+                </li>
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="./product.html">PRODUCT</a>
+                </li>
+
+
+                <li class="nav-item ">
+                  <a class="nav-link" href="./contact.html">CONTACT</a>
+                </li>
+              </ul>
+
+              <form class="d-flex">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <button class="btn btn-outline-success" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+        </nav>
+      </header>
+
+      <!-- home section -->
+
+      <section id="home">
+        <div class="container-fluid home-content">
+          <div class="row">
+            <div class="col-12 col-md-6 col-lg-6 home-l">
+              <h1 data-aos="fade-right" data-aos-duration="1000">
+                SK <span class="text-info"> SHOP</span>
+              </h1>
+              <h2 data-aos="fade-down" data-aos-duration="1000">
+                DELIVERY IN <span class="text-warning">15</span> MINS
+              </h2>
+
+              <p data-aos="fade-left" data-aos-duration="1000">
+                Sk SHOP,all product a <b class="text-danger">oragnic</b> .
+                imculisin fresh products .
+              </p>
+
+              <div class="d-flex gap-3">
+                <button
+                  class="btn"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  View More
+                </button>
+                <button
+                  class="btn"
+                  data-aos="fade-left"
+                  data-aos-duration="1000"
+                >
+                  Order Now
+                </button>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-6 mt-4">
+              <div class="home-r" data-aos="fade-left">
+                <img
+                  class="image-fluid w-100"
+                  src="image/confident-young-male-gardener-wearing-gardening-hat-holds-vegetable-basket-isolated-green-background-with-copy-space.png"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- our feature -->
+
+      <section id="feature">
+        <h1 class="my-4 text-center text-white">OUR FEATURE</h1>
+
+        <div class="container">
+          <div class="row mt-2">
+            <div
+              class="col-12 col-md-6 col-lg-3 mt-4"
+              data-aos="fade-up-right"
+              data-aos-duration="2000"
+            >
+              <div class="card card-1">
+                <div class="image-fluid">
+                  <img src="image/fresh-image.jpg" class="w-100" alt="" />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Fresh And Organic</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores, ratione
+                  </p>
+                  <button href="#" class="btn btn-primary">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-12 col-md-6 col-lg-3 mt-4"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
+            >
+              <div class="card card-1">
+                <div class="image-fluid">
+                  <img src="image/deliver.avif" class="w-100" alt="" />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Fast & Delivery</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores, ratione
+                  </p>
+                  <button href="#" class="btn btn-primary">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-12 col-md-6 col-lg-3 mt-4"
+              data-aos="fade-up-left"
+              data-aos-duration="1000"
+            >
+              <div class="card card-1">
+                <div class="image-fluid">
+                  <img src="image/feature meat.avif" class="w-100" alt="" />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">Fresh & Meat</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores, ratione
+                  </p>
+                  <button href="#" class="btn btn-primary">Read More</button>
+                </div>
+              </div>
+            </div>
+
+            <div
+              class="col-12 col-md-6 col-lg-3 mt-4"
+              data-aos="fade-up-left"
+              data-aos-duration="2000"
+            >
+              <div class="card card-1">
+                <div class="image-fluid">
+                  <img src="image/payment.avif" class="w-100" alt="" />
+                </div>
+                <div class="card-body text-center">
+                  <h5 class="card-title">PAYMENT</h5>
+                  <p class="card-text">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Dolores, ratione
+                  </p>
+                  <button href="#" class="btn btn-primary">Read More</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--feature end -->
+
+      <!-- about section -->
+
+      <section id="about" class="my-5">
+        <h1 class="text-center my-4 ab-head">About</h1>
+
+        <div class="container">
+          <div class="image" data-aos="zoom-out-up" data-aos-duration="1000">
+            <img
+              src="image/garden 3.avif"
+              width="100%"
+              height="500px"
+              alt="image"
+            />
+
+            <div>
+              <h1 class="my-4" data-aos="fade-up" data-aos-duration="1000">
+                Vegetable Farming From its Beginnings
+              </h1>
+            </div>
+          </div>
+
+          <div>
+            <div data-aos="fade-up-right" data-aos-duration="1000">
+              <p>
+                Vegetable farming is a type of crop production intended
+                primarily for human consumption of the crop’s edible parts such
+                as the shoot, leaves, fruits, and roots. According to the
+                consume part of the crop, vegetables are divided into the
+                following groups:
+              </p>
+            </div>
+            <ul data-aos="fade-up-left" data-aos-duration="1000">
+              <li>Leaf vegetables (lettuce, cabbage, spinach)</li>
+              <li>Fruit vegetables (pepper, cucumber, tomato)</li>
+              <li>Root vegetables (carrot, radish, sweet potato)</li>
+              <li>Bulb vegetables (garlic, onion, fennel)</li>
+              <li>Flower vegetables (artichoke, cauliflower, broccoli)</li>
+            </ul>
+          </div>
+
+          <div class="row Ab-con-img mt-4">
+            <!-- <div class="col ">
+              <img src="image/carrot.avif" class="w-100" alt="pic">
+
+              <h3>Lettuce farm</h3>
+            </div> -->
+
+            <div
+              class="col-12 col-md-6 col-lg-3 text-center"
+              data-aos="fade-up-right"
+              data-aos-duration="2000"
+            >
+              <div class="ab-img">
+                <img src="image/leafe.jpg" alt="pic" />
+              </div>
+
+              <h2 class="mt-2">Lettuce farm</h2>
+            </div>
+
+            <div
+              class="col-12 col-md-6 col-lg-3 text-center"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
+            >
+              <div class="ab-img">
+                <img src="image/beet farm.avif" alt="pic" />
+              </div>
+
+              <h3 class="mt-2">Beetroor farm</h3>
+            </div>
+
+            <div
+              class="col-12 col-md-6 col-lg-3 text-center"
+              data-aos="fade-up-left"
+              data-aos-duration="1000"
+            >
+              <div class="ab-img">
+                <img src="image/onion farm.avif" alt="pic" />
+              </div>
+
+              <h3 class="mt-2">Onion farm</h3>
+            </div>
+
+            <div
+              class="col-12 col-md-6 col-lg-3 text-center"
+              data-aos="fade-up-left"
+              data-aos-duration="2000"
+            >
+              <div class="ab-img">
+                <img src="image/potato farm.jpg" alt="pic" />
+              </div>
+
+              <h3 class="mt-2">Potato farm</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- about section end -->
+
+      <!-- footer -->
+
+      <footer data-aos="fade-up " data-aos-duration="1000">
+        <div class="container-fluid">
+          <div class="row mt-5 p-4">
+            <div
+              class="col-12 col-md-6 col-lg-3"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
+            >
+              <div class="text-center foot-1">
+                
+
+                <p>About</p>
+                <p>Service</p>
+                <p>Contact</p>
+                <p>Shop</p>
+                <p>Blog</p>
+              </div>
+            </div>
+
+            <div
+              class="col-12 col-md-6 col-lg-3"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
+            >
+              <div class="text-center foot-1">
+
+                <p>Orders Tracking</p>
+                <p>FAQs</p>
+                <p>Shipping & Delivery</p>
+                <p>Terms of Service</p>
+                <p>Terms & Conditions</p>
+              </div>
+            </div>
+
+            <div
+              class="col-12 col-md-6 col-lg-3"
+              data-aos="fade-up-right"
+              data-aos-duration="1000"
+            >
+              <img
+                class="w-100"
+                src="image/organic-food-label-illustration.png"
+                height="250px"
+                alt=""
+              />
+            </div>
+
+            <div
+              class="col-12 col-md-6 col-lg-3 text-center"
+              data-aos="fade-up-left"
+              data-aos-duration="1000"
+            >
+              <h2>CONTACT</h2>
+
+              <p>123,XYZ ROad,BSK3 Bangalore, Kanchipuram</p>
+
+              <div class="foot-icon">
+                <a href="https://www.facebook.com/">
+
+                <i class="fa-brands fa-facebook"></i>
+
+
+                </a>
+                 
+                <a href="https://www.instagram.com/">
+                <i class="fa-brands fa-instagram"></i>
+                       
+                </a>
+
+                <a href="https://x.com/">
+                <i class="fa-brands fa-twitter"></i>
+                    
+                </a>
+
+
+                <a href="https://www.youtube.com/">
+                  <i class="fa-brands fa-youtube"></i>
+
+
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </main>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- js link -->
+    <script src="./card.js"></script>
+
+    <!-- aos js -->
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- Initialize AOS -->
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

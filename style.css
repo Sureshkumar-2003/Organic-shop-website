@@ -1,0 +1,674 @@
+
+*{
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+header{
+    z-index: 9999;
+    position:sticky !important;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.nav-main{
+    background-color: black !important;
+}
+
+
+.nav-link {
+    color: white !important;
+    margin-left:40px !important;
+}
+
+.nav-item a{
+    font-weight: bolder;
+    /* border-bottom: 2px solid white; */
+    overflow: hidden;
+    transition: 2s;
+    letter-spacing: 2px;
+}
+
+.nav-item a:hover{
+    background-color: #b156b1;
+    border-radius: 8px;
+
+}
+
+
+
+
+
+.navbar-brand{
+    font-size: 25px !important;
+    font-weight: bolder;
+    
+    text-transform: uppercase;
+    color: white;
+}
+
+/* home */
+
+#home{
+    width: 100%;
+   min-height: 100vh;
+   overflow: hidden;
+    background-image: url(image/img.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: grid;
+    place-items: center;
+}
+
+:root{
+    --mycolor:white;
+    --my-h-size: 50px ;
+
+}
+
+.home-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-l{
+    width: 50%;
+    display: grid;
+    place-content: center;
+}
+
+.home-l h1{
+    font-size: var(--my-h-size);
+     color: var(--mycolor);
+     letter-spacing: 2px;
+     font-weight: bolder;
+    margin-bottom: 2%;
+}
+
+.home-l p{
+    color: var(--mycolor);
+    font-size: 20px;
+    margin-bottom: 4%;
+
+}
+
+.home-l h2{
+    
+    color: var(--mycolor);
+    letter-spacing: 2px;
+
+    font-size: var(--my-h-size);
+
+
+    margin-bottom: 2%;
+}
+
+
+.home-l .btn{
+    background-color: aqua;
+    color: black;
+    font-weight: bolder;
+    transition: 0.9s;
+}
+
+.home-l .btn:hover{
+    background-color: rgb(16, 17, 17);
+    color: rgb(232, 223, 223);
+
+
+}
+
+
+/* .home-r img{
+ animation: home 8s linear infinite;
+}
+
+@keyframes home {
+    from{
+        transform:scaleX(0.4);
+    }
+    to{
+
+        transform:scaleX(1.1);
+
+
+    }
+} */
+
+
+/* about */
+
+#about{
+    overflow: hidden;
+}
+
+.ab-head {
+    font-size: 50px !important;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgb(103, 97, 97);
+}
+.ab-img{
+    overflow: hidden;
+}
+
+.ab-img img:hover{
+    transform: scale(0.8);
+}
+
+ .ab-img img{
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    transition: 2s;
+}
+
+
+/* feature */
+
+#feature{
+    padding-bottom: 60px;
+    overflow: hidden;
+    background-color: #b156b1;
+}
+
+.card-1{
+    height: 350px;
+    box-shadow: 2px 2px 2px 2px black;
+}
+
+
+.card-1 img{
+    width: 150px;
+    height: 150px;
+    
+}
+
+.card button{
+    width: 150px;
+    padding: 4px;
+    transition: 0.9s;
+    background-color: #12ae9f;
+}
+
+.card button:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+/* add to card */
+
+.fa-cart-shopping{
+    font-size: 18px;
+    background-color: white;
+    color: rgb(47, 42, 42) !important;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.card-icon{
+    position: relative;
+}
+
+.card-icon span{
+    background-color: rgb(23, 238, 23);
+    width: 18px;
+    height: 18px;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    position: absolute;
+    top: -12px;
+    right: -10px;
+    border-radius: 4px;
+}
+
+
+
+
+
+
+/* our product */
+
+.p-overall{
+    background: linear-gradient(105deg, rgba(34,193,195,1) 0%, rgba(182,43,174,1) 100%);
+    border-radius: 20px ;
+
+}
+
+.veg-img img{
+    animation: veg 10s linear infinite;
+
+}
+
+@keyframes veg {
+    from{
+        transform: translateY(25px);
+
+
+    }
+
+    to{
+        transform: scaleY(0.9);
+
+        
+    }
+}
+
+
+
+
+
+
+
+footer {
+    background: linear-gradient(105deg, rgb(35, 36, 36) 0%, rgba(99,170,231,1) 100%) !important;
+    overflow: hidden;
+    margin-top: 5%;
+}
+
+
+.foot-1 p{
+
+    font-size: 18px !important;
+    color: white;
+
+}
+
+.foot-1 p:hover{
+    color: chartreuse;
+}
+
+.foot-1 h4{
+    font-size: 25px;
+    font-weight: bolder;
+    color: rgb(240, 202, 202);
+}
+
+.foot-icon i{
+    font-size: 28px;
+    margin-left: 10px;
+}
+
+.foot-icon a{
+  text-decoration: none;
+}
+
+.foot-icon  a:first-child{
+    color: blue;
+}
+
+.foot-icon a:nth-child(2){
+    color:red;
+}
+
+.foot-icon  a:nth-child(3){
+    color:rgb(231, 247, 233);
+}
+
+.foot-icon  a:nth-child(4){
+    color:rgb(241, 8, 8);
+}
+
+
+
+/* Product page */
+
+
+:root {
+    --sdhalite: 0 0 10px rgba(0, 0, 0, 0.3);
+    --insha: 0 0 10px rgba(0, 0, 0, 0.3), 0 0 10px rgba(0, 0, 0, 0.3)inset;
+    --deepp: rgb(255, 0, 55);
+    --font15: 15px;
+    --font16: 16px;
+    --font17: 20px;
+
+    --fonthead:50px;
+}
+
+.navbar{
+    background-color: rgb(20, 21, 21) !important;
+    z-index: 9999;
+}
+
+
+/* ----------order styles------------------- */
+
+.font-h{
+    /* padding-top: 8% !important; */
+    font-size: 50px !important;
+    letter-spacing: 3px;
+    text-shadow: 2px 2px 2px black;
+}
+
+
+
+
+
+.items1 h5 {
+    color: rgb(114, 112, 112);
+    margin-top: 10px;
+    font-size: 15px;
+
+}
+
+.items1 h3 {
+    font-size: var(--font17);
+    font-weight: 600;
+    margin-top: 10px;
+    color: rgb(31, 31, 31);
+
+} 
+
+.orderbox1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+}
+
+
+.orderbox1 .dish::before {
+    content: "20% Offer";
+    text-align: center;
+    width: 80px;
+    font-weight: bolder;
+    font-size: 14px !important;
+    background: linear-gradient(to right, rgb(102, 255, 0), rgb(255, 83, 120));
+    color: rgb(37, 32, 32);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    position: absolute;
+    left: 0;
+    top: 5px;
+}
+
+.orderbox1 .dish {
+    
+    padding: 20px 10px;
+    background-color: rgb(255, 255, 255);
+    width: 270px;
+    min-height: 300px;
+    box-shadow: var(--sdhalite);
+    border-radius: 5px;
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+
+
+}
+
+.cart{
+    width: 150px;
+    background-color: rgb(16, 211, 107) !important;
+    border-radius: 10px;
+    font-weight: bolder;
+}
+
+.cart:hover{
+    background-color: black !important;
+    color: #b156b1;
+}
+
+
+
+.orderbox1 img {
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    object-fit: cover;
+    /* border:5px solid white; */
+    align-self: center;
+    transition: 2s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    animation: orderfood 2s 1s linear infinite;
+    /* background-color: rgb(255, 255, 255); */
+    border: 2px solid white;
+
+}
+
+
+@keyframes orderfood {
+    0% {}
+
+    50% {
+        transform: scale(0.8);
+
+    }
+
+    100% {}
+}
+
+
+.orderbox1 p {
+    font-size: var(--font15);
+    margin: 10px 0;
+    line-height: 25px;
+    color: rgb(202, 30, 30);
+}
+
+
+
+.price {
+    
+    padding: 2px 8px;
+    font-size: 17px;
+    color: rgb(12, 220, 19);
+    /* border-radius: 5px 5px 10px 2px; */
+    border-radius: 5px;
+    font-weight: bold;
+   
+}
+
+
+
+
+ 
+.veg h2,
+.nonveg h2 {
+    margin-bottom: 20px;
+}
+ 
+
+
+
+/* ------------------------- */
+.plcart{
+    display: flex;
+      justify-content: center;
+      width:100%;
+    gap:15px;
+    
+}
+
+
+
+
+
+/* --------------------- */
+.cart-block{
+    position: relative;
+    padding:5px;
+    cursor: pointer;
+    margin-top: 10px;
+
+}
+.cart-count{
+    width:20px;
+    height:20px;
+    position: absolute;
+    top:-5px;
+    right:-5px;
+    background-color: rgb(240, 114, 11);
+    color: rgb(230, 230, 230);
+    border-radius: 50%;
+    text-align: center;
+    cursor: pointer;
+    
+}
+
+
+
+/* -----------my cart------ */
+.mycart{
+    position: fixed;
+    width:400px;
+    height:100vh;
+    top:0;
+    right:-100%;
+    background-color: rgb(231, 231, 231);
+    transition: 1s;
+  overflow-x: hidden;
+  overflow-y: auto;
+
+}
+
+@media screen and (max-width:400px) {
+    .mycart{
+       
+        width:300px;
+    
+    }
+    
+}
+
+.mycart-open{
+    top:0;
+    right:0;
+    position: fixed;
+
+
+}
+.cart-img{
+    width:100%;
+    background-color: rgb(193, 67, 67);
+    box-shadow: 2px 2px 2px 2px black;
+    border-radius: 5px;
+    object-fit: cover;
+}
+.item1{
+    display: grid;
+    grid-template-columns: 30% 45% 20%;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    border-bottom: 1px solid rgb(180, 180, 180);
+    /* z-index: 88; */
+}
+.cart-qty{
+    width:40px;
+    outline: none;
+    padding-left: 5px;
+    cursor: pointer;
+    border: 1px solid rgb(192, 191, 191);
+}
+
+.close{
+    position: absolute;
+    top:10px;
+    right:13px;
+}
+.close i{
+    color: red!important;
+font-size: 25px;
+cursor: pointer;
+}
+.remove{
+    cursor: pointer;
+}
+
+
+/* contact page */
+
+
+#contact-home{
+    height:80vh;
+    background-image: url(image/contact-home.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    overflow: hidden;
+
+}
+
+.contact-h{
+    padding-left: 10%;
+    padding-top: 20%;
+}
+
+.contact-h h1{
+    font-size: 40px ;
+    color: white;
+    font-weight: bolder;
+}
+
+.contact-h h3{
+    font-size: 40px ;
+    color: white;
+    font-weight: bolder;
+}
+
+.contact-h button{
+    width: 150px;
+    color: white;
+    background: linear-gradient(#b156b1,#880);
+}
+
+
+
+/* contact form */
+
+/* contact form */
+
+
+#contact{
+    overflow: hidden;
+
+}
+
+#contact h1{
+    font-size: var(--fonthead);
+    font-weight: bolder;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+#contact form {
+    width: 100%;
+    /* height: 80vh; */
+    background-image: url(image/contact-form.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* background: linear-gradient(105deg, rgb(84, 220, 72) 0%, rgba(99,170,231,1) 100%); */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+#contact form label{
+    color: white;
+    font-weight: bolder !important;
+}
+
+
